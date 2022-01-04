@@ -15,4 +15,6 @@ You can download the weights and cfg files from the original repository.
 # A screenshot from demo video
 
 ![Alt text](1_output.png?raw=true "Screenshot")
-*The reason it didn't capture the car at bottom left is the full car is not in the frame yet and in the following frames yolo actually finds it and continues with wpod and ocr expectedly*
+*The reason it didn't capture the car at bottom left is the full car is not in the frame yet and in the following frames yolo actually finds it and continues with wpod and ocr expectedly as you can see below*
+![Alt text](11_output.png?raw=true "Screenshot2")
+
