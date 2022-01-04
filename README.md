@@ -6,7 +6,7 @@ Also since keras model for wpod is working way slower than the darknet models it
 
 Solved compatability issues between old darknet and the new one for this repository. I've compiled darknet using cmake-gui in Windows from AlexeyAB's repository https://github.com/AlexeyAB/darknet
 
-A note would be first compile your darknet then change it with my darknet folder or change directly darknet.py folder itself.
+A tip would be first compile your darknet then change it with my darknet folder or change directly darknet.py folder itself.
 
 And for both license plate (ocr) and vehicle detection added confidence scores for each detection.(avg for ocr)
 
