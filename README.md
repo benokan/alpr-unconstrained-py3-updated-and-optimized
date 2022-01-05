@@ -1,5 +1,10 @@
 # alpr-unconstrained-py3-updated-and-optimized
 
+From Sergio Montazzolli Silva and Claudio Rosito Jung,
+"License Plate Detection and Recognition in Unconstrained Scenarios",
+In Proceedings of the European Conference on Computer Vision (ECCV),
+pp. 580-596. 2018.  
+
 Updated a little bit the already existing alpr-unconstrained repository. https://github.com/sergiomsilva/alpr-unconstrained
 
 Also since keras model for wpod is working way slower than the darknet models it was creating a bottleneck for the inference, to avoid this problem I've introduced a trade-off by changing the resolution of the input for wpod which doesnt affect the performance of the model if yoou don't over-tweak it (as setting the resolution to 10 would destroy the inference)
